@@ -19,7 +19,7 @@ const About = () => {
                   Frontend developer
                 </h1>
                 <p className="md:text-md leading-tight">
-                Hi! I'm Guorong Su, a passionate junior developer with a strong interest in front-end development, UI/UX design, and full-stack development. 
+                Hi!! I'm Guorong Su, a passionate junior developer with a strong interest in front-end development, UI/UX design, and full-stack development. 
                 I enjoy creating dynamic web applications, responsive designs that deliver value to users.
                 </p>
                 <br />
