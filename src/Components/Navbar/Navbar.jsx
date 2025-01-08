@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { RiCloseLine, RiMenu2Line } from "@remixicon/react";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [menu, openMenu] = useState(false);
@@ -33,8 +34,10 @@ const Navbar = () => {
             Contact
           </li>
         </a>
+        <li><Link to="/john-portfolio/love">Love</Link></li> {/* 添加 Love 页面链接 */}
+
       </ul>
-      
+
       {showMenu ? (
         <RiMenu2Line
           size={30}
