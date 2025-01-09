@@ -13,7 +13,7 @@ const Love = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // 密码验证为 'love'
+    
     if (password === 'GZJ') {
       setIsAuthenticated(true); // 密码正确，设置为已验证
       setShowMedia(true); // 显示视频
@@ -43,12 +43,12 @@ const Love = () => {
   };
 
   return (
-    <div className='flex items-center justify-center h-auto bg-gray-800 border-2 border-gray-600 rounded-lg'>
+    <div className='flex items-center justify-center  bg-gray-800 border-2 border-gray-600 rounded-lg h-screen'>
       <form className='bg-white p-4 rounded-lg shadow-lg'>
         <input 
           type="text" 
           className='p-2 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 w-64' 
-          placeholder="Who is my love??"
+          placeholder="Who do i love the most?"
           value={password} 
           onChange={handlePasswordChange} // 监听输入框变化
         />
