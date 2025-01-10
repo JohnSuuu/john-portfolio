@@ -52,7 +52,7 @@ const Navbar = () => {
             Contact
           </li>
         </a>
-        <li><Link to="/love">Love</Link></li> {/* 添加 Love 页面链接 */}
+        <li><Link to="/love">Secret</Link></li> {/* 添加 Love 页面链接 */}
       </ul>
 
       {showMenu ? (

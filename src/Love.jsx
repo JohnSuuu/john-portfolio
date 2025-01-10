@@ -48,7 +48,7 @@ const Love = () => {
         <input 
           type="text" 
           className='p-2 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 w-64' 
-          placeholder="Who do i love the most?"
+          placeholder="????????"
           value={password} 
           onChange={handlePasswordChange} // 监听输入框变化
         />
