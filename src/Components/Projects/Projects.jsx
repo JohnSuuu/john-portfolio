@@ -19,7 +19,12 @@ const Projects = () => {
           source_code="https://github.com/JohnSuuu/John-portfolio"
           demo = "https://johnsuuu.github.io/John-portfolio/"
         />
-
+        <ProjectCard
+          title="Chat App"
+          main="this is a bloggin website created in next js and used some component library used some component library"
+          source_code="https://github.com/JohnSuuu/chat-app"
+          demo = "https://johnsuuu.github.io/chat-app/"
+        />
       </div>
     </div>
   );
