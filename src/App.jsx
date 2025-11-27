@@ -17,7 +17,6 @@ function App() {
       <Routes>
         <Route path="/" element={
           <>
-          123
             <Home />
             <About />
             <Experience />
@@ -27,8 +26,6 @@ function App() {
         } />
         <Route path="/love" element={<Love />} />
       </Routes>
-
-
     </div>
 
   );
